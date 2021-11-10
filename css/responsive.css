@@ -1,0 +1,255 @@
+/*
+X-Small	None <576px
+Small	sm	≥576px
+Medium	md	≥768px
+Large	lg	≥992px
+Extra large	xl	≥1200px
+Extra extra large	xxl	≥1400px
+*/
+@media (max-width:359px){
+    .about-img {
+    position: relative;
+    right: 0;
+    top: 0;
+    border: 20px solid #b8a07e;
+    width: 100%;
+    height: 294px;
+    z-index: 0;
+    overflow: hidden;
+}
+.navigation {
+    position: fixed;
+    background-color: white;
+    top: 26%;   
+    left: 80%;
+    transform: translate(-50%, -50%);
+}
+.about-img img {
+    width: 100%;
+    height: 345px;
+    z-index: 2;
+    position: absolute;
+    top: -28px;
+    left: 0;
+}
+.details h2 {
+    font-family: 'Poppins', helvetica;
+    font-size: 31px;
+    font-weight: 300;
+    color: #292929;
+    padding-bottom: 13px;
+}
+
+.navigation .nav .nav-link {
+    padding: 4px 13px;
+}
+.about .about-text p {
+    margin: 28px 0px;
+    padding: 0px 0px;
+
+}
+
+.navigationham{
+display: block;
+}
+.about {
+    width: 100%;
+    background: #faf7f7;
+    padding-top: 69px;
+    padding-bottom: 90px;}
+
+.para-two p{
+padding: 34px 0;
+line-height: -9.2;
+color: #999999;
+}
+
+.details p {
+    font-family: 'Poppins', helvetica;
+    font-size: 14px;
+    font-weight: 300;
+    color: #292929;
+    padding-left: 3px;
+    letter-spacing: 1px;
+    width: 100%;
+}
+
+
+.about .about-text h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    text-align: left;
+    color: #999999;
+    line-height: 26px;
+    margin-right: -9px;
+    font-weight: 100;
+    margin-top: 40px;
+}
+    .form {
+    padding-top: 6px;
+    }
+   
+}
+@media (min-width:360px){
+        .about-img {
+        position: relative;
+        right: 0;
+        top: 0;
+        border: 20px solid #b8a07e;
+        width: 100%;
+        height: 390px;
+        z-index: 0;
+        overflow: hidden;
+    }
+    .about-img img {
+        width: 100%;
+        height: auto;
+        z-index: 2;
+        position: absolute;
+        top: -28px;
+        left: 0;
+    }
+    .details h2 {
+        font-family: 'Poppins', helvetica;
+        font-size: 31px;
+        font-weight: 300;
+        color: #292929;
+        padding-bottom: 13px;
+    }
+   
+    .navigation .nav .nav-link {
+        padding: 4px 13px;
+    }
+    .about .about-text p {
+        margin: 28px 0px;
+        padding: 0px 0px;
+
+    }
+    
+   .navigationham{
+    display: block;
+    } 
+    .navigationham a:hover{
+        color: #999;
+    }
+    .about {
+        width: 100%;
+        background: #faf7f7;
+        padding-top: 120px;
+        padding-bottom: 90px;}
+
+    .para-two p{
+    padding: 34px 0;
+    line-height: -9.2;
+    color: #999999;
+    }
+
+    .details p {
+        font-family: 'Poppins', helvetica;
+        font-size: 14px;
+        font-weight: 300;
+        color: #292929;
+        padding-left: 3px;
+        letter-spacing: 1px;
+    }
+
+
+    .about .about-text h2 {
+        font-family: 'Playfair Display', serif;
+        font-size: 22px;
+        text-align: left;
+        color: #999999;
+        line-height: 26px;
+        margin-right: -9px;
+        font-weight: 100;
+        margin-top: 40px;
+    }
+    .form {
+        padding-top: 19px;
+    }
+    .custom-card-3 .card-text-wrapper {
+        padding: 27px 0px;
+    }
+}
+@media (max-width: 576px){
+    .mobile-toggle-trigger a {
+       
+        margin-right: 20px;
+    }
+    .image-pad{
+        padding: 0 40px;
+    }
+}
+@media (max-width: 767px){
+    .hero .head-one {
+        padding: 75px 0;
+    }
+    .details{
+        padding-top: 25px;
+    }
+}
+ @media (max-width: 991px){
+     .navigation{
+        position: fixed;
+        background-color: white;
+        top: 26%;
+        left: 78%;
+        transform: translate(-50%, -50%);
+     }
+     .mobile-nav{
+        flex-direction: column;
+        justify-content: space-around !important;
+        height: 50%;
+     }
+     .navigationham a i{
+         font-size: 25px;
+     }
+
+     .navigation .nav .nav-link {
+         padding: 4px 20px;
+     }
+     .nav-style {
+         color: #7e7d7d;
+         font-family: 'Poppins', sans-serif;
+         font-size: 14px;
+         font-weight: 500;
+         padding: 4px 6px 4px 20px;
+         letter-spacing: 0.5px;
+     }
+ }
+@media (min-width: 992px){
+  
+    .about-img{
+        position: relative;
+        right: 0;
+        top: 0;
+        border: 20px solid #b8a07e;
+        width: 343px;
+        height: 376px;
+        z-index: 0;
+        overflow: visible;
+    }
+    
+
+    .about-img img{
+        width: 312px;
+        height: 372px;
+        z-index: 2;
+        position: absolute;
+        top: -61px;
+        left: 36px;
+    }
+   .navigation{
+       display: block;
+   }
+   .mobile-toggle-trigger{
+       display: none;
+   }
+}
+ 
+@media (max-width: 1199px){
+}
+ 
+@media (min-width: 1400px){
+
+}
